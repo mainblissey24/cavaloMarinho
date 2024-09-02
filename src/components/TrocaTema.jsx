@@ -4,5 +4,5 @@ import { TemaContext } from "../context/TemaContext";
 
 export default function TrocaTema() {
   const { alterarTema } = useContext(TemaContext);
-  return <Button onPress={alterarTema}>Trocar Tema</Button>;
+  return <Button onPress={alterarTema}>Trocar Tema do dispositivo</Button>;
 }
