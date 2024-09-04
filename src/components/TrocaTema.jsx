@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Button } from "react-native-paper";
-import { TemaContext } from "../context/TemaContext"; 
+import { TemaContext } from "../context/TemaContext";
 
 export default function TrocaTema() {
   const { alterarTema } = useContext(TemaContext);
